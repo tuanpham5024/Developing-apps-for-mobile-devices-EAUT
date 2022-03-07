@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Username"
+            android:textStyle="bold" />
+        <EditText
+            android:hint="nhập id"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Password"
+            android:textStyle="bold" />
+        <EditText
+            android:hint="nhập mật khẩu"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#291010"
+            android:text="Hủy" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#291010"
+            android:text="Quên mật khẩu" />
+    </LinearLayout>
+</TableLayout>
