@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string-array name="height">
+        <item>cm</item>
+        <item>m</item>
+    </string-array>
+    <string-array name="weight">
+        <item>kg</item>
+    </string-array>
+</resources>
